@@ -1,0 +1,44 @@
+.overlay-loading {
+    position: fixed;
+    text-align: center;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    z-index: 999999;
+}
+.spin-box {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 100%;
+    width: 18px;
+    height: 18px;
+    box-shadow: 18px 18px #ff3366, -18px 18px #fff, -18px -18px #ff3366, 18px -18px #fff;
+    -webkit-animation: spin ease infinite 4s;
+    -khtml-animation: spin ease infinite 4s;
+    animation: spin ease infinite 4s;
+}
+
+@include keyframes (spin);
+@keyframes spin {
+    0%,
+    100% {
+        box-shadow: 18px 18px #ff3366, -18px 18px #fff, -18px -18px #ff3366, 18px -18px #fff;
+    }
+    25% {
+        box-shadow: -18px 18px #fff, -18px -18px #ff3366, 18px -18px #fff, 18px 18px #ff3366;
+    }
+    50% {
+        box-shadow: -18px -18px #ff3366, 18px -18px #fff, 18px 18px #ff3366, -18px 18px #fff;
+    }
+    75% {
+        box-shadow:  18px -18px #fff, 18px 18px #ff3366, -18px 18px #fff, -18px -18px #ff3366;
+    }
+}

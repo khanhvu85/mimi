@@ -1,0 +1,193 @@
+/*****************************General*****************************/
+*{
+	margin: 0px;
+}
+/*****************************End General*****************************/
+
+/*****************************Login*****************************/
+.login-wrapper{
+	margin: 8% auto 0 auto;
+	padding: 20px 40px 0px 40px;
+	width: 380px;
+	background: #e7e7e7;
+	color: #848484;
+}
+.login-wrapper .alert{
+	margin: 15px 0px 0px 0px;
+}
+.login-welcome-wrapper{
+	width: 100%;
+	margin-bottom: 20px;
+	background: #fff;
+}
+.login-welcome{
+	padding: 10px 0px 10px 20px;
+	line-height: 20px;
+}
+.login-form-wrapper{
+	width: 100%;
+	padding: 30px 20px 10px 20px;
+	background: #fff;
+}
+.lform-input-group{
+	width: 100%;
+	margin-bottom: 15px;
+}
+.lform-input-group label{
+	margin: 0px;
+	font-weight: inherit;
+}
+.lform-button-wrapper{
+	height: 50px;
+}
+.lform-input{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	color: #000;
+}
+.lform-button{
+	float: right;
+	padding: 5px 15px;
+	border: 1px solid #e7e7e7;
+	border-radius: 4px;
+	background: #0b6692;
+	color: #fff;
+}
+.login-lost-password{
+	margin-top: 20px;
+}
+.lost-password-link{
+	padding-left: 20px;
+	line-height: 30px;
+}
+.lost-password-link{
+	cursor: pointer;
+}
+.lost-password-link:hover{
+	color: #0b6692;
+}
+/*****************************End Login*****************************/
+
+/*****************************Layout*****************************/
+.layout-nav{
+	border-right: 1px solid #00EE00;
+	text-align: center;
+	height: 100%;
+}
+.layout-nav-welcome{
+	font-weight: bold;
+	margin: 0px;
+	padding-bottom: 20px;
+	line-height: 20px;
+}
+.layout-nav-topic{
+	margin-top: 20px;
+}
+.layout-topic{
+	border-bottom: 1px solid #00EE00;
+}
+.layout-nav-ul{
+	list-style: none;
+	padding: 0px;
+	margin: 20px 10px;
+}
+.layout-nav-li{
+	padding: 10px 0px;
+}
+.layout-nav-link-content{
+	border: 1px dashed #00BFFF;
+	margin: 0px;
+	color: #000000;
+	font-weight: bold;
+	line-height: 20px;
+	padding: 5px 0px;
+}
+.layout-nav-link:hover{
+	text-decoration: none;
+}
+.layout-nav-link.active .layout-nav-link-content,
+.layout-nav-link:hover .layout-nav-link-content{
+	color: #FFFFFF;
+	background: #00BFFF;
+}
+.view-content{
+	padding-top: 30px;
+}
+/*****************************End Layout*****************************/
+
+/*****************************View*****************************/
+.view-topic{
+	line-height: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #00BFFF;
+	padding: 20px 10px;
+	margin: 0px;
+}
+.view-block{
+	padding-bottom: 15px;
+}
+.view-tittle{
+	padding-left: 10px;
+	font-weight: bold;
+	text-decoration: underline;
+
+}
+/*****************************End View*****************************/
+
+/*****************************View Demo*****************************/
+.demo-chart-wrapper{
+	width: 100%;
+}
+.demo-age-title{
+	width: 200px;
+	text-align: center;
+	font-weight: bold;
+}
+.chart-legend-age,
+.chart-legend-gender,
+.gender-canvas-wrapper,
+.age-canvas-wrapper{
+	float: left;
+}
+.chart-legend-age ul{
+	list-style: none;
+	padding: 45px 0px 0px 30px;
+}
+.chart-legend-gender ul{
+	list-style: none;
+	padding: 60px 0px 0px 30px;
+}
+.chart-legend-gender li span,
+.chart-legend-age li span{
+    display: inline-block;
+    width: 20px;
+    height: 12px;
+    margin-right: 5px;
+}
+/*****************************End View Demo*****************************/
+
+/*****************************View Behaviors*****************************/
+.beha-engaged-content,
+.beha-when-content,
+.beha-active-content{
+	padding: 0px 40px;
+}
+.beha-table{
+	width: 100%;
+}
+.beha-td{
+	text-align: center;
+	padding-top: 10px;
+	width: 25%;
+}
+.beha-engaged-number{
+	font-size: 16px;
+	font-weight: bold;
+}
+/*****************************End View Behaviors*****************************/
+
+/*****************************View Setting*****************************/
+/*****************************End View Setting*****************************/
